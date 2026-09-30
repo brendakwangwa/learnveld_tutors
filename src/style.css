@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  color: black;
+}
+header {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: white;
+}
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.hero a {
+  display: inline-block;
+  background-color: goldenrod;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.hero a:hover {
+  background-color: navy;
+}
+#services {
+  padding: 50px 20px;
+  text-align: center;
+}
+#services > div {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+#services > div:hover {
+  transform: translateY(-5px);
+}
+#why-us {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f1f5f9;
+}
+
+#why-us > div {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+#why-us > div:hover {
+  transform: translateY(-5px);
+}
+#subjects {
+  padding: 50px 20px;
+  text-align: center;
+}
+#subjects > div {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#subjects > div {
+  transition: transform 0.3s ease;
+}
+
+#subjects > div:hover {
+  transform: translateY(-5px);
+}
+#testimonials {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #e0f2fe;
+}
+#testimonials p {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px navy;
+  font-style: italic;
+}
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+#contact input,
+#contact textarea {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+#contact button {
+  background-color: navy;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#contact button:hover {
+  background-color: gold;
+}
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+header img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+}
